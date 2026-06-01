@@ -42,26 +42,30 @@ Output: [0,1]
 
 ## Submission
 
-**Language:** python3  
-**Runtime:** 3039 ms (5.12%)  
-**Memory:** 16.4 MB (100.00%)  
+**Language:** javascript  
+**Runtime:** 3 ms (56.06%)  
+**Memory:** 54.7 MB (7.56%)  
 **Submitted:** 2026-06-01
 
 ## Solution
 
-```python
-        
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for i,num in enumerate(nums):
-            for j in range(i+1,len(nums)):
-                if i < len(nums)-1:
-                    if nums[i] + nums[j] == target:
-                        return [i,j]
-                else:
-                    return []
-
-        
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    let numMap = new Map(); // A mapping to store numbers and their indices
+    for (let i = 0; i < nums.length; i++) {
+        let complement = target - nums[i]; // Find the required number to reach the target
+        if (numMap.has(complement)) {
+            return [numMap.get(complement), i]; // Return indices of the complement and current number
+        }
+        numMap.set(nums[i], i); // Store the number with its index
+    }
+    return []; // This line is never reached due to the problem guarantee
+};
 ```
 
 ---
