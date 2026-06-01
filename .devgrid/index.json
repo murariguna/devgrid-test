@@ -1,0 +1,29 @@
+{
+  "submissions": {
+    "1-python3": {
+      "questionId": "1",
+      "title": "Two Sum",
+      "slug": "two-sum",
+      "difficulty": "Easy",
+      "language": "python3",
+      "runtime": 3039,
+      "memory": 17168000,
+      "topics": [
+        {
+          "tagId": "topic-0",
+          "slug": "array",
+          "name": "Array"
+        },
+        {
+          "tagId": "topic-1",
+          "slug": "hash-table",
+          "name": "Hash Table"
+        }
+      ],
+      "folderName": "0001-two-sum",
+      "lastUpdated": 1780295891999
+    }
+  },
+  "lastUpdated": 1780295891999,
+  "version": "1.0.0"
+}
