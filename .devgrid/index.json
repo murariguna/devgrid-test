@@ -29,8 +29,8 @@
       "slug": "two-sum",
       "difficulty": "Easy",
       "language": "javascript",
-      "runtime": 3,
-      "memory": 57376000,
+      "runtime": 1,
+      "memory": 55540000,
       "topics": [
         {
           "tagId": "topic-0",
@@ -44,9 +44,9 @@
         }
       ],
       "folderName": "0001-two-sum",
-      "lastUpdated": 1780296094632
+      "lastUpdated": 1780296176126
     }
   },
-  "lastUpdated": 1780296094632,
+  "lastUpdated": 1780296176126,
   "version": "1.0.0"
 }
