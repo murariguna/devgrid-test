@@ -43,8 +43,8 @@ Output: [0,1]
 ## Submission
 
 **Language:** javascript  
-**Runtime:** 3 ms (56.06%)  
-**Memory:** 54.7 MB (7.56%)  
+**Runtime:** 1 ms (85.99%)  
+**Memory:** 53.0 MB (31.11%)  
 **Submitted:** 2026-06-01
 
 ## Solution
