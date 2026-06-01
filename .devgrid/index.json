@@ -22,8 +22,31 @@
       ],
       "folderName": "0001-two-sum",
       "lastUpdated": 1780295891999
+    },
+    "1-javascript": {
+      "questionId": "1",
+      "title": "Two Sum",
+      "slug": "two-sum",
+      "difficulty": "Easy",
+      "language": "javascript",
+      "runtime": 3,
+      "memory": 57376000,
+      "topics": [
+        {
+          "tagId": "topic-0",
+          "slug": "array",
+          "name": "Array"
+        },
+        {
+          "tagId": "topic-1",
+          "slug": "hash-table",
+          "name": "Hash Table"
+        }
+      ],
+      "folderName": "0001-two-sum",
+      "lastUpdated": 1780296094632
     }
   },
-  "lastUpdated": 1780295891999,
+  "lastUpdated": 1780296094632,
   "version": "1.0.0"
 }
