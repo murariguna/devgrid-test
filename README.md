@@ -5,8 +5,8 @@ Automated LeetCode solutions synchronized to GitHub.
 ## Statistics
 
 ```
-Total Solved    1
-Easy            1
+Total Solved    2
+Easy            2
 Medium          0
 Hard            0
 ```
@@ -14,20 +14,22 @@ Hard            0
 ## Languages
 
 ```
-python3         ████████████████████ 100.0%
+javascript      ██████████░░░░░░░░░░ 50.0%
+python3         ██████████░░░░░░░░░░ 50.0%
 ```
 
 ## Top Topics
 
 ```
- 1. Array                          1
- 2. Hash Table                     1
+ 1. Array                          2
+ 2. Hash Table                     2
 ```
 
 ## Recent Activity
 
 |   | Problem | Language | Date |
 |---|---------|----------|------|
+| ● | [Two Sum](./0001-two-sum) | javascript | 2026-06-01 |
 | ● | [Two Sum](./0001-two-sum) | python3 | 2026-06-01 |
 
 ## Repository Structure
